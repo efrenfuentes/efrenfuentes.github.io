@@ -4,30 +4,56 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  margin-top: 20px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+p {
+  line-height: 28px;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1,h2,h3,h4 {
+  font-family: 'Droid Serif', serif;
+  color: #423F37;
+}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+h1 { 
+  font-size: 2em;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  padding-bottom: 0.4em;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+a {
+  color: #06A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #06A;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited { 
+  color: #607890; 
+}
 
 /*****************************************************************************/
 /*
