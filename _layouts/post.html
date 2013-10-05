@@ -1,9 +1,31 @@
 ---
 layout: default
+blog: true
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
-</div>
+<article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      {{ page.date | date: "%b %Y" }}
+  {% if page.updated_at %}
+      revised {{ page.updated_at }}
+  {% endif %}
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    {{ content }}
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      Puede seguirme en Twitter <a href="http://twitter.com/efrenfuentes"  target="_blank">aquí</a>.
+    </p>
+  </footer>
+</article>
+
