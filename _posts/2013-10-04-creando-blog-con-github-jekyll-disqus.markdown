@@ -31,5 +31,6 @@ El resultado lo estas viendo, no se si escriba mas a menudo pero por lo menos lo
 
 [disqus]: http://disqus.com
 [github]: https://github.com
+[github-pages]: http://pages.github.com/
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]: http://jekyllrb.com
