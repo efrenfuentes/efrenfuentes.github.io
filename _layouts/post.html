@@ -22,10 +22,18 @@ blog: true
     {{ content }}
   </div>
 
-  <footer class="ten columns">
-    <p id='follow'>
-      Puede seguirme en Twitter <a href="http://twitter.com/efrenfuentes"  target="_blank">aquí</a>.
-    </p>
-  </footer>
+  {% if page.allow_comments != false %}
+      <div id="disqus_thread" name="disqus_thread"></div>
+      <script type="text/javascript">
+          var disqus_shortname = 'efrenfuentes';
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Por favor active JavaScript para ver los <a href="http://disqus.com/?ref_noscript">comentarios por Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comentarios por <span class="logo-disqus">Disqus</span></a>
+  {% endif %}
 </article>
 
