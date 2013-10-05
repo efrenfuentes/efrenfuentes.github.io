@@ -96,15 +96,12 @@ a:visited {
 
 #article-content pre {
   font-family: monospace;
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+
+  padding: 1em;
   margin: 1em 0px;
 }
 
 #article-content code {
-  border: 1px solid #ddd;
-  background-color: #eef;
   padding: 0 .2em;
 }
 
