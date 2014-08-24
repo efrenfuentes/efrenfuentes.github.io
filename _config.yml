@@ -1,5 +1,5 @@
 name: Efrén Fuentes
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 timezone: America/Caracas
 permalink: '/:title'
